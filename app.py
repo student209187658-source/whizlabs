@@ -3,4 +3,4 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 def hello():
     who = request.args.get('who', 'Whizlabs')
-    return f'Hello World from v1!\n'
+    return f'Hello World from v2!\n'
